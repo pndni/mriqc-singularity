@@ -1,0 +1,7 @@
+Bootstrap: docker
+From: poldracklab/mriqc:0.15.0
+
+%post
+    mkdir /data
+    mkdir /out
+    mkdir /work_dir
